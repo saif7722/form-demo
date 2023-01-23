@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+    <style>
+      header{
+        text-align: center;
+      }
+      .headbold{
+        font-weight: 600;
+        line-height: 20px;
+      }
+      .formtitle{
+        font-weight: 600;
+        font-size: 20px;
+        text-decoration: underline;
+        line-height: 22px;
+      }
+      .dotted {
+    border:0;
+    border-bottom: 2px dotted;
+    width: 68%;
+}
+.dottedone {
+    border:0;
+    border-bottom: 2px dotted;
+    width: 53%;
+}
+
+.btmline{
+  border-bottom: 2px solid #000;
+}
+
+.inf{
+    display: inline-block;
+}
+.prnf{
+  display: none;
+}
+     
+    </style>
+
+
+  </head>
+  
+<body>
+
+<header>
+  
+    <h2>SENBAG GOVT.COLLEGE</h2>
+    <span class="headbold">
+    SENBAG, NOAKHALI</br>
+      EIIN-104528 , Collage Code: 3250</br>
+      Telephone-2502047,2501000-11 Ext: 5570/5571</br>
+  </span>
+   <span> Website:bafsc.edu.bd</br>
+    E-mail: bafshaheencollegectg@yahoo.com</br>
+    <span class="formtitle">ADMISSION FORM</span><br/>
+    (College section)</span>
+</header>
+
+<form action="" method="POST" id="myfrm">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <label for="fno">01. Form No:</label>
+        <input class="headbold inf" type="text" id="fno" name="fno" >
+        <span class="headbold prnf" id="fno1" ></span>
+        </div>
+        <div class="col-md-6">
+        <label for="classAppliedFor">02. Class applied for:</label>
+        <span class="headbold inf"  id="classAppliedFor"></span> <span class="headbold prnf" id="classAppliedFor1" ></span><br>
+        <label  for="gpa">03. Obtained G.P.A:</label>
+        <input class="headbold inf" type="text" id="gpa" name="gpa" >
+        <span class="headbold prnf" id="gpa1" ></span>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <label for="stdname">04. Student's name:</label>
+        <input type="text" class="dotted headbold" id="stdname" name="stdname" value="">
+        <span class="headbold prnf" id="stdname1" ></span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <label for="formfee">05. Admission form fee's receipt:</label>
+        <input type="text" class="dottedone headbold" id="formfee" name="formfee" value="">
+        <span class="headbold prnf" id="formfee1" ></span>
+        </div>
+        <div class="col-md-6">
+        <label for="date">Date: </label>
+        <input type="text" class="dottedone headbold" id="date" name="date" value="">
+        <span class="headbold prnf" id="date1" ></span>
+        
+      </div>
+
+    </div>
+
+    <div class="mt-5 btmline row">
+      <div class="headbold col-md-6">
+        <p>Date:</p>
+        </div>
+        <div class="col-md-6 headbold">
+        <label for="date">Form Official's Sign </label>
+        </div>
+        
+
+
+
+    </div>
+    <p class="headbold">Date: To be filled up by guardian/Student: (According to the transcript of S.S.C exam)</p>
+
+    <div class="row">
+      <div class="col-md-12">
+        <label for="stdnameBlock">06. Student's name(In Block Letter):</label>
+        <input type="text" class="dotted headbold" id="stdnameBlock" name="stdnameBlock" value="">
+        <span class="headbold prnf" id="stdnameBlock1" ></span>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div class="col-md-6">
+        <label for="fatherName">07. Father's name:</label>
+        <input type="text" class="dotted headbold" id="fatherName" name="fatherName" value="">
+        <span class="headbold prnf" id="fatherName1" ></span>
+        <label  class="ms-5 for="fatherDes">Designation:</label>
+        <input type="text" class="dotted headbold" id="fatherDes" name="fatherDes" value="">
+        <span class="headbold prnf" id="fatherDes1" ></span>
+        </div>
+        <div class="col-md-6">
+        <label for="fatherOcc">Occupation:</label>
+        <input type="text" class="dotted headbold" id="fatherOcc" name="fatherOcc" value="">
+        <span class="headbold prnf" id="fatherOcc1" ></span>
+        <label  for="bdNo">BD No: (If any):</label>
+        <input type="text" class="dotted headbold" id="bdNo" name="bdNo" value="">
+        <span class="headbold prnf" id="bdNo1" ></span>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <label for="motherName">08. Mother's name:</label>
+        <input type="text" class="dotted headbold" id="motherName" name="motherName" value="">
+        <span class="headbold prnf" id="motherName1" ></span>
+        <label  class="ms-5" for="motherDes">Designation:</label>
+        <input type="text" class="dotted headbold" id="motherDes" name="motherDes" value="">
+        <span class="headbold prnf" id="motherDes1" ></span>
+        </div>
+        <div class="col-md-6">
+        <label for="motherOcc">Occupation:</label>
+        <input type="text" class="dotted headbold" id="motherOcc" name="motherOcc" value="">
+        <span class="headbold prnf" id="motherOcc1" ></span>
+        <label  for="bdNo">BD No: (If any):</label>
+        <input type="text" class="dotted headbold" id="bdNo" name="bdNo" value="">
+        <span class="headbold prnf" id="bdNo1" ></span>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <label for="StdDOB">09. Student's Date of Birth:</label>
+        <input type="text" class="dottedone headbold" id="StdDOB" name="StdDOB" value="">
+        <span class="headbold prnf" id="StdDOB1" ></span>
+        </div>
+        <div class="col-md-6">
+        <label for="nationality">10: Nationality: </label>
+        <input type="text" class="dottedone headbold" id="nationality" name="nationality" value="">
+        <span class="headbold prnf" id="nationality1" ></span>
+        
+      </div>
+
+    </div>
+
+    
+    <div class="row">
+      <div class="col-md-4">
+        <label for="religion">11. Religion:</label>
+        <input type="text" class="dottedone headbold" id="religion" name="religion" value="">
+        <span class="headbold prnf" id="religion1" ></span>
+        </div>
+        <div class="col-md-4">
+        <label for="caste">12: Caste: </label>
+        <input type="text" class="dottedone headbold" id="caste" name="caste" value="">
+        <span class="headbold prnf" id="caste1" ></span>
+        </div>
+        <div class="col-md-4">
+          <label for="height">13: Height: </label>
+          <input type="text" class="dottedone headbold" id="height" name="height" value="">
+          <span class="headbold prnf" id="height1" ></span>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <label for="sscCompleted">14. Name and Address of the school from which S.S.C was completed:</label>
+        <input type="text" class="dotted headbold" id="sscCompleted" name="sscCompleted" value="">
+        <span class="headbold prnf" id="sscCompleted1" ></span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <label for="legalGuardian">15. Legal Guardian's name and address:</label>
+        <input type="text" class="dottedone headbold" id="legalGuardian" name="legalGuardian" value="">
+        <span class="headbold prnf" id="legalGuardian1" ></span>
+        </div>
+        <div class="col-md-6">
+        <label for="religionGuardian">Religion: </label>
+        <input type="text" class="dottedone headbold" id="religionGuardian" name="religionGuardian" value="">
+        <span class="headbold prnf" id="religionGuardian1" ></span>
+        
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+         
+          <label  class="ms-5" for="guardianOcc">Occupation:</label>
+          <input type="text" class="dotted headbold" id="guardianOcc" name="guardianOcc" value="">
+          <span class="headbold prnf" id="guardianOcc1" ></span>
+          </div>
+          
+      </div>
+
+    </div>
+
+ 
+ 
+ 
+</div>
+</form> 
+<p class="text-center m-5"> <input  type="button" onclick="myPrint('myfrm')" value="print">
+  <input  type="button" class="btn_pdf" onclick="generatePDF()" value="PDF Download">
+
+</p>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+ 
+     const personinfo = {
+        fno : "023146685",
+        classAppliedFor : "Class XI(Science)",
+        gpa : "4.88",
+        stdname : "MOHAMMED SAMAUN IBNE ALAM LABIB",
+        formfee : "1020 TK",
+        date : "1/21/2023",
+        stdnameBlock : "MOHAMMED SAMAUN IBNE ALAM LABIB",
+        fatherName : "ADV. MUHAMMED SHAMSUL ALAM",
+        fatherOcc : "ADVOCATE",
+        motherName : "FATEMA BEGUM",
+        motherOcc : "TEACHER",
+        StdDOB : "26-2-2006",
+        nationality : "BANGLADESHI",
+        religion : "ISLAM",
+        height : "CM",
+        legalGuardian : "FATEMA BEGUM",
+        guardianOcc : "TEACHER"
+    }
+
+    document.getElementById("fno").value = personinfo.fno;
+    document.getElementById("fno1").innerHTML = personinfo.fno;
+    document.getElementById("classAppliedFor").innerHTML = personinfo.classAppliedFor;
+    document.getElementById("classAppliedFor1").innerHTML = personinfo.classAppliedFor;
+    document.getElementById("gpa").value = personinfo.gpa;
+    document.getElementById("gpa1").innerHTML = personinfo.gpa;
+    document.getElementById("stdname").value = personinfo.stdname;
+    document.getElementById("stdname1").innerHTML = personinfo.stdname;
+    document.getElementById("formfee").value = personinfo.formfee;
+    document.getElementById("formfee1").innerHTML = personinfo.formfee;
+    document.getElementById("date").value = personinfo.date;
+    document.getElementById("date1").innerHTML = personinfo.date;
+    document.getElementById("stdnameBlock").value = personinfo.stdnameBlock;
+    document.getElementById("stdnameBlock1").innerHTML = personinfo.stdnameBlock;
+    document.getElementById("fatherName").value = personinfo.fatherName;
+    document.getElementById("fatherName1").innerHTML = personinfo.fatherName;
+    document.getElementById("fatherOcc").value = personinfo.fatherOcc;
+    document.getElementById("fatherOcc1").innerHTML = personinfo.fatherOcc;
+    document.getElementById("motherName").value = personinfo.motherName;
+    document.getElementById("motherName1").innerHTML = personinfo.motherName;
+    document.getElementById("motherOcc").value = personinfo.motherOcc;
+    document.getElementById("motherOcc1").innerHTML = personinfo.motherOcc;
+    document.getElementById("StdDOB").value = personinfo.StdDOB;
+    document.getElementById("StdDOB1").innerHTML = personinfo.StdDOB;
+    document.getElementById("nationality").value = personinfo.nationality;
+    document.getElementById("nationality1").innerHTML = personinfo.nationality;
+    document.getElementById("religion").value = personinfo.religion;
+    document.getElementById("religion1").innerHTML = personinfo.religion;
+    document.getElementById("height").value = personinfo.height;
+    document.getElementById("height1").innerHTML = personinfo.height;
+    document.getElementById("legalGuardian").value = personinfo.legalGuardian;
+    document.getElementById("legalGuardian1").innerHTML = personinfo.legalGuardian;
+    document.getElementById("guardianOcc").value = personinfo.guardianOcc;
+    document.getElementById("guardianOcc1").innerHTML = personinfo.guardianOcc;
+
+
+
+    function myPrint(myfrm){
+      document.querySelectorAll("input").forEach(function(el) {
+   el.style.display = "none";
+});
+      let printdata = document.getElementById('myfrm');
+      newwin = window.open("");
+      newwin.document.write(printdata.outerHTML);
+      newwin.print();
+
+      
+   
+      newwin.close();
+
+      document.querySelectorAll("input").forEach(function(el) {
+   el.style.display = "inline-block";
+});
+
+     // const matches = document.querySelectorAll("input");
+      //console.log(matches);
+      //matches.style.display = 'none';
+
+      
+    }
+
+
+   /* $(document).ready(function($){
+      $(document).on('click','.btn_pdf',function(event){
+        event.preventDefault();
+
+        let element = document.getElementById('myfrm');
+        var opt = {
+          margin:       1,
+          filename:     'myfile.pdf',
+          image:        { type: 'jpeg', quality: 0.98 },
+          html2canvas:  { scale: 2 },
+          jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
+      };
+      });
+    });*/
+
+  
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+<script>
+    function generatePDF() {
+      const element = document.getElementById('myfrm');
+      document.querySelectorAll(".inf").forEach(function(el) {
+   el.style.display = "none";
+});
+
+document.querySelectorAll(".prnf").forEach(function(el) {
+   el.style.display = "inline-block";
+});
+   var opt = {
+      margin:       0,
+      filename:     'html2pdf_example.pdf',
+      image:        { type: 'jpeg', quality: 0.98 },
+      html2canvas:  { scale: 2 },
+     // jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
+      jsPDF:        { 
+ orientation: 'p',
+ unit: 'mm',
+ format: 'a4',
+ putOnlyUsedFonts:true }
+    };
+    // Choose the element that our invoice is rendered in.
+    html2pdf().set(opt).from(element).save();
+
+    document.querySelectorAll(".inf").forEach(function(el) {
+   el.style.display = "inline-block";
+});
+
+document.querySelectorAll(".prnf").forEach(function(el) {
+   el.style.display = "none";
+});
+    }
+</script>
+</body>
+</html>
+
